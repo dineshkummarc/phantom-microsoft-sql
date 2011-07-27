@@ -1,0 +1,9 @@
+h1. Microsoft SQL PhantomJS Async Headless Tests
+
+Another boilerplate implementation for quality assurance process improvements by utilizing asynchronous headless testing on our online properties.
+
+h2. Getting Started
+
+# Install phantomjs <code>port install phantomjs</code>
+# Clone this repository
+# Add specs to the /spec/ folder
