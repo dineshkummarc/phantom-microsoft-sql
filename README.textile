@@ -1,4 +1,4 @@
-h1. Microsoft SQL PhantomJS Async Headless Tests
+h1. Microsoft SQL PhantomJS Async Headless Webkit Tests
 
 Another boilerplate implementation for quality assurance process improvements by utilizing asynchronous headless testing on our online properties.
 
