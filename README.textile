@@ -7,3 +7,4 @@ h2. Getting Started
 # Install phantomjs <code>port install phantomjs</code>
 # Clone this repository
 # Add specs to the /spec/ folder
+# Execute ./run.sh (ensure correct privileges by chmodding)
