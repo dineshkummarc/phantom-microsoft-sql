@@ -1,7 +1,5 @@
 var page = new WebPage();
 page.onConsoleMessage = function(msg) { console.log(msg); };
-
-
 page.open(encodeURI("http://www.microsoft.com/sqlserver/en/us/default.aspx"), function (status) {
   if (status !== "success") {
     console.log("Unable to access network");
@@ -36,7 +34,7 @@ page.open(encodeURI("http://www.microsoft.com/sqlserver/en/us/default.aspx"), fu
           return document.querySelectorAll('.evidence ul.items li.item').length;
         }), 4);      
       })
-    .run();
+    .run(); 
   }
   phantom.exit();
 });
