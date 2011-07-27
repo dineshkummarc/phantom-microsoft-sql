@@ -1,4 +1,4 @@
-var tests = [], when, page;
+var tests = [];
 
 var TestGroup = function TestGroup(title) { 
   tests.push({ title: title, cases: [] });
@@ -13,13 +13,13 @@ TestGroup.prototype.run = function run() {
   console.log("--------- STARTING SPEC RUNNER ---------");
   tests.forEach(function(group, index) {
     var num = index + 1;
-    console.log(num + ")", 'when', group.title);
+    console.log(num + ") when " + group.title);
     group.cases.forEach(function(testCase, i) {
       var result = testCase.callback.call(this);
       if (result) {
-        console.log('✓', '\t', testCase.title);
+        console.log('✓ \t' + testCase.title);
       } else {
-        console.log('✗', '\t', testCase.title);        
+        console.log('✗ \t' + testCase.title);        
       }
     }); 
   });
